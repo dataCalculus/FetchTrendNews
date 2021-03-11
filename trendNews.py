@@ -4,7 +4,7 @@ def NewsFromMilliyet():
     query_params = {
         "source": "milliyet.com.tr",
         "sortBy": "top",
-        "apiKey": "73abf5c84ea4463eb34dff988302cea7"
+        "apiKey": "" #uyelik https://newsapi.org/s/turkey-news-api
     }
     main_url = "http://newsapi.org/v2/top-headlines?country=tr&apiKey=73abf5c84ea4463eb34dff988302cea7"
 
